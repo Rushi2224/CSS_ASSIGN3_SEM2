@@ -1,0 +1,197 @@
+body {
+    font-family: '', sans-serif;
+    background-color: white; /* Light background color */
+    color: #333; /* Dark text color */
+}
+
+header {
+    background-color: white; /* Remove background color */
+    color: white; /* Change text color to dark */
+    text-align: center;
+    padding: 40px;
+    background-image: url('../IMG/img6.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Cormorant Garamond'; /* Add your font family for h1 here */
+}
+
+nav {
+    margin-top: 20px; /* Add some space between header and navigation */
+    font-family: 'Sulphur Point';
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 99px;
+    margin-top: 0%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white; /* Change link text color to dark */
+    font-weight: bold;
+    font-size: 20px;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+nav a:hover {
+    color: #ffd700; /* Change color on hover to a lighter gold */
+    transform: scale(1.1);
+}
+
+main section {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffe4b5; /* Light gold background color for main */
+    padding: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px; /* Add rounded corners */
+}
+
+h3 , .features h3{
+    font-family: 'Playfair Display';
+    font-size: 25px;
+    text-align: center;
+}
+.product-description , .features {
+    font-family: 'Sulphur Point';
+    display: flex;
+    align-items: center;
+    text-align: center; /* Align text to the left */
+    font-size: 18px;
+}
+
+.product-description img , .features img {
+    width: 400px;
+    height: auto;
+    border: 5px solid #d4af37; /* Golden border around the image */
+    border-radius: 10px; /* Rounded corners */
+    margin-right: 20px; /* Add space between image and text */
+    transition: transform 0.3s ease; /* Add smooth transition on hover */
+}
+
+.product-description img:hover , .features img:hover {
+    transform: scale(1.05); /* Zoom in by 10% on hover */
+}
+.discover-button {
+    background-color: #d4af37; /* Golden button background color */
+    font-size: 15px;
+    color: #fff; /* White button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+}
+
+.discover-button:hover {
+    transform: scale(1.05); /* Zoom in by 10% on hover */
+    background-color: #d4af37; /* Lighter gold on hover */
+    color: #333;
+}
+
+.features {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-family: 'Sulphur Point';
+    background-image: url('golden_bullet.png'); /* Custom golden bullet image */
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+h5{
+    font-size: 22px;
+}
+footer {
+    background-color: #3e2723; /* Remove background color */
+    color: #d4af37; /* Change text color to dark */
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px; /* Add rounded corners */
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+/* Add more styles based on your preferences */
+
+.company-info {
+    font-family:'Sulphur Point' ;
+    display: flex;
+    font-size: 18px;
+}
+
+.address{
+    margin: 350px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.social-media{
+    margin: 350px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+form {
+    font-family:'Sulphur Point' ; 
+    margin-top: 20px;
+}
+  /* Styling for form groups */
+.form-group {
+    margin-bottom: 15px;
+}
+  /* Styling for form labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Styling for form inputs and textarea */
+input,
+textarea {
+    width:600px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  /* Styling for textarea resizing */
+textarea {
+    resize: vertical;
+}
+  /* Styling for submit button */
+button {
+    background-color: #d4af37;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Hover effect for submit button */
+button:hover {
+    background-color: #d4af37;
+    transform: scale(1.2);
+}
